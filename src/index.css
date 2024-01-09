@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(250, 249, 246);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+h3 {
+  color: crimson;
+  font-size: 18px;
+  padding-block: 2px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+.content {
+  text-align: center;
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  position: relative;
+  padding-inline: 10px;
+}
+button {
+  padding-block: 12px;
+  width: 95%;
+  background-color: crimson;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px white;
+  outline: none;
+  margin-top: 3px;
+}
+.input {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+input {
+  width: 95%;
+  border-radius: 5px;
+  padding-block: 12px;
+  outline: none;
+  border: 1px solid rgb(127, 123, 123);
+}
